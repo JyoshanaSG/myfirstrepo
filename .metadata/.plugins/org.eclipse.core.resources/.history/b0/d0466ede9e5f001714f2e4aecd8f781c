@@ -1,0 +1,23 @@
+package nz.com.example;
+
+import java.util.Scanner;
+
+public class App {
+	
+	public String reverseString(String str){
+		return new StringBuilder(str).reverse().toString();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//final String mystring = "joshana";
+		System.out.println("Enter the String: ");
+		Scanner myvalue = new Scanner(System.in);
+		String a = myvalue.next();
+		App a1 = new App();
+		String finalValue = a1.reverseString(a);
+		System.out.println(finalValue);
+
+	}
+
+}

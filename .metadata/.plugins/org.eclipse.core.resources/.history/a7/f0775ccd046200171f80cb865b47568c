@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="header">
+    <title>Spring MVC Example</title>
+</head>
+<body>
+<p>Helloooooooooooo</p>
+</body>
+</html>

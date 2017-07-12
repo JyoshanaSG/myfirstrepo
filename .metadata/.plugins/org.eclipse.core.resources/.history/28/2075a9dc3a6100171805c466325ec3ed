@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>My Header Page...</title>
+</head>
+<body>
+	<p th:fragment="head">WOW !!!!!!!!!!!!!!!!!!!!!!</p>
+</body>
+</html>

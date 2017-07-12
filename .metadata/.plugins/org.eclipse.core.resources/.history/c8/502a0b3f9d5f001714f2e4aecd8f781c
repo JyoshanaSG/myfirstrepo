@@ -1,0 +1,14 @@
+package nz.com.example;
+
+public class App {
+	
+	public String reverseString(String str){
+		return StringBuilder(str).reverse().toString();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

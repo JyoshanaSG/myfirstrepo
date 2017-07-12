@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body th:fragment="index">
+<h2>Hello From Web Index Page!!!!</h2>
+<p>Get your greeting <a href="/helloworld">here</a></p>
+</body>
+</html>

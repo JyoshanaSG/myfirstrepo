@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Welcome To WebPage....</title>
+</head>
+<body>
+	<p> Welcome To Web Application Using Spring-boot and Thyme-Leaf with HTMl!!!!!</p>
+	<div th:replace="header::header">
+	<p></p>
+	</div>
+</body>
+
+</html>
