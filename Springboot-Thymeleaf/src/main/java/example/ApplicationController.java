@@ -17,5 +17,8 @@ public class ApplicationController {
     public String myWebPage(Model model) {
         return "myPage";
     }
-	
+	@RequestMapping("/myPage2")
+    public String myWebPage2(Model model) {
+        return "myPage2";
+    }
 }
